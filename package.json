@@ -8,10 +8,13 @@
   },
   "dev-dependencies": {},
   "scripts": {
+    "dev-start": "beefy js/splash.js --live && catw -c 'lessc -' './style/*.less' -o './css/splash.css'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "beefy": "^2.0.2",
-    "browserify": "^4.2.0"
+    "browserify": "^4.2.0",
+    "catw": "^0.2.0",
+    "less": "^1.7.3"
   }
 }
