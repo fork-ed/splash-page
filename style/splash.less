@@ -1,7 +1,74 @@
+/* Colours */
+@header-bg: black;
+@header-color: white;
+
+@body-bg: white;
+@font-color: black;
+
+/* Sizes */
 @heading-size: 40px;
-@font-color: #222;
+@heading-ratio: 0.8;
+
+@font-size: 14px;
+@line-height: 1.5;
+
+@figure-width: 200px;
+@figure-height: 200px;
+
+@large-margin: 20px;
+@large-padding: @large-margin;
+
+/* Styles */
+body {
+    margin: 0px;
+
+    background-color: @body-bg;
+    color: @font-color;
+}
+
+header {
+    margin: 0px;
+    padding: @large-padding;
+
+    background-color: @header-bg;
+    color: @header-color;
+}
+
+section {
+    min-height: @figure-height + @large-margin;
+    padding: @large-padding;
+
+    figure {
+        display: block;
+        float: left;
+
+        width: @figure-width;
+        height: @figure-height;
+        margin: @large-margin;
+
+        background-color: #ddd;
+    }
+}
+
+section:nth-child(even) {
+    figure {
+        float: right;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
+    margin: 0px;
+}
 
 h1 {
     font-size: @heading-size;
-    color: @font-color;
+}
+
+h2 {
+    font-size: @heading-size * @heading-ratio;
+}
+
+h3 {
+    font-size: @heading-size * @heading-ratio * @heading-ratio;
 }
