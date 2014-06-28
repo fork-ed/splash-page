@@ -1,0 +1,17 @@
+{
+  "name": "forked-splash",
+  "version": "0.0.0",
+  "description": "A splash page for displaying the functionality of the ForkEd project",
+  "author": "Kenni Bawden",
+  "dependencies": {
+    "d3": "^3.4.8"
+  },
+  "dev-dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "beefy": "^2.0.2",
+    "browserify": "^4.2.0"
+  }
+}
