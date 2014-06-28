@@ -1,3 +1,7 @@
+/* Fonts */
+@heading-font: mathlete, sans-serif;
+@body-font: 'Open Sans Condensed', sans-serif;
+
 /* Colours */
 @header-bg: black;
 @header-color: white;
@@ -6,11 +10,11 @@
 @font-color: black;
 
 /* Sizes */
-@heading-size: 40px;
-@heading-ratio: 0.8;
+@heading-size: 70px;
+@heading-ratio: 0.75;
 
-@font-size: 14px;
-@line-height: 1.5;
+@font-size: 22px;
+@line-height: 1.2;
 
 @figure-width: 200px;
 @figure-height: 200px;
@@ -21,6 +25,10 @@
 /* Styles */
 body {
     margin: 0px;
+
+    font-family: @body-font;
+    font-size: @font-size;
+    line-height: @line-height;
 
     background-color: @body-bg;
     color: @font-color;
@@ -57,8 +65,9 @@ section:nth-child(even) {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    line-height: 1;
+    line-height: 0.8;
     margin: 0px;
+    font-family: @heading-font;
 }
 
 h1 {
