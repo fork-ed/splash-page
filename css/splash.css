@@ -1,0 +1,52 @@
+/* Fonts */
+/* Colours */
+/* Sizes */
+/* Styles */
+body {
+  margin: 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 22px;
+  line-height: 1.2;
+  background-color: #ffffff;
+  color: #000000;
+}
+header {
+  margin: 0px;
+  padding: 20px;
+  background-color: #000000;
+  color: #ffffff;
+}
+section {
+  min-height: 220px;
+  padding: 20px;
+}
+section figure {
+  display: block;
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-color: #ddd;
+}
+section:nth-child(even) figure {
+  float: right;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 0.8;
+  margin: 0px;
+  font-family: mathlete, sans-serif;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 52.5px;
+}
+h3 {
+  font-size: 39.375px;
+}
